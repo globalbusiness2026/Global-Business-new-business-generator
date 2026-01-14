@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Business | New Business Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="animated-bg">
+        <div class="grid-lines"></div>
+        <div class="light-beams">
+            <div class="light-beam beam-1"></div>
+            <div class="light-beam beam-2"></div>
+            <div class="light-beam beam-3"></div>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo-wrapper">
+                    <img src="logo.png" alt="Global Business Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>Global Business</h1>
+                        <p class="tagline">Your Sales Team</p>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active rainbow-hover">Home</a></li>
+                    <li><a href="#about" class="nav-link rainbow-hover">About</a></li>
+                    <li><a href="#business" class="nav-link rainbow-hover">For Business</a></li>
+                    <li><a href="#customer" class="nav-link rainbow-hover">For Customer</a></li>
+                    <li><a href="#benefits" class="nav-link rainbow-hover">Benefits</a></li>
+                    <li><a href="#presentation" class="nav-link rainbow-hover">Presentation</a></li>
+                    <li><a href="#register" class="nav-link register-btn rainbow-hover">Register Now</a></li>
+                </ul>
+            </nav>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2 class="hero-title">New Business <span class="highlight">Generator</span></h2>
+                        <p class="hero-subtitle">Connecting Businesses with Customers in Revolutionary Ways</p>
+                        <p class="hero-description">Global Business is a revolutionary platform that bridges the gap between local businesses and customers, creating a win-win ecosystem with exclusive benefits, offers, and surprises.</p>
+                        <div class="hero-actions">
+                            <a href="#business" class="btn-primary rainbow-hover">For Businesses</a>
+                            <a href="#customer" class="btn-secondary rainbow-hover">For Customers</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="visual-container">
+                            <div class="connection-animation">
+                                <div class="business-node">
+                                    <i class="fas fa-store"></i>
+                                    <span>Business</span>
+                                </div>
+                                <div class="connection-line">
+                                    <div class="pulse-dot"></div>
+                                </div>
+                                <div class="customer-node">
+                                    <i class="fas fa-users"></i>
+                                    <span>Customer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What is <span class="highlight">Global Business</span>?</h2>
+                    <p class="section-subtitle">A revolutionary platform transforming local commerce</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>For Businesses</h3>
+                        <p>All types of shops like restaurants, hotels, grocery shops, stationary shops and many more can register as <strong>BUSINESS</strong> on Global Business platform to reach more customers and increase sales.</p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <h3>For Customers</h3>
+                        <p>Normal customers register to discover local businesses, view offers, generate coupons, and enjoy exclusive benefits including birthday and anniversary surprises.</p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3>Connection Platform</h3>
+                        <p>Global Business creates a direct connection channel between local businesses and their potential customers, generating new business opportunities for everyone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Section -->
+        <section id="business" class="section business-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>For <span class="highlight">Businesses</span></h2>
+                    <p class="section-subtitle">Grow your business with Global Business platform</p>
+                </div>
+                
+                <div class="business-content">
+                    <div class="business-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-list-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Business Listing</h4>
+                                <p>Get listed on our platform where customers can easily find you</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Offer Publishing</h4>
+                                <p>Create and publish special offers, discounts and coupons</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Location Based Visibility</h4>
+                                <p>Customers see your distance from their location</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Brand Promotion</h4>
+                                <p>Upload images and videos to promote your business</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="activation-details">
+                        <h3 class="activation-title">Business Activation</h3>
+                        <div class="activation-card">
+                            <div class="activation-header">
+                                <h4>Business Profile Setup</h4>
+                            </div>
+                            <ul class="activation-list">
+                                <li><i class="fas fa-check"></i> Business Name</li>
+                                <li><i class="fas fa-check"></i> Contact Number</li>
+                                <li><i class="fas fa-check"></i> Location</li>
+                            </ul>
+                            
+                            <div class="activation-header">
+                                <h4>Product & Offer Setup</h4>
+                            </div>
+                            <ul class="activation-list">
+                                <li><i class="fas fa-check"></i> Product Details</li>
+                                <li><i class="fas fa-check"></i> MRP</li>
+                                <li><i class="fas fa-check"></i> USP (Unique Selling Proposition)</li>
+                                <li><i class="fas fa-check"></i> Product Images</li>
+                                <li><i class="fas fa-check"></i> Product Videos</li>
+                                <li><i class="fas fa-check"></i> Live Offer Coupons</li>
+                            </ul>
+                            
+                            <div class="agreement">
+                                <p><i class="fas fa-file-contract"></i> Mandatory acceptance of platform agreement</p>
+                            </div>
+                            
+                            <div class="activation-fee">
+                                <h4>Activation Fee (Business)</h4>
+                                <div class="fee-breakdown">
+                                    <div class="fee-item">
+                                        <span>Base Fee:</span>
+                                        <span>₹1,499</span>
+                                    </div>
+                                    <div class="fee-item">
+                                        <span>GST (18%):</span>
+                                        <span>₹269.82</span>
+                                    </div>
+                                    <div class="fee-item total">
+                                        <span>Total:</span>
+                                        <span>₹1,768.82</span>
+                                    </div>
+                                    <div class="fee-item">
+                                        <span>Validity:</span>
+                                        <span>1 Year</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Section -->
+        <section id="customer" class="section customer-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>For <span class="highlight">Customers</span></h2>
+                    <p class="section-subtitle">Discover, Save, and Enjoy Exclusive Benefits</p>
+                </div>
+                
+                <div class="customer-content">
+                    <div class="customer-benefits">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-search-location"></i>
+                            </div>
+                            <h4>Discover Local Businesses</h4>
+                            <p>See all registered businesses with distance from your location</p>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-ticket-alt"></i>
+                            </div>
+                            <h4>Generate Free Coupons</h4>
+                            <p>Create offer coupons for free to get discounts and benefits</p>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <h4>Special Benefits</h4>
+                            <p>Get additional benefits when using coupons multiple times</p>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-birthday-cake"></i>
+                            </div>
+                            <h4>Birthday Surprises</h4>
+                            <p>Exclusive gifts like cake, movie tickets, restaurant dinners</p>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4>Anniversary Gifts</h4>
+                            <p>Special anniversary gifts including dinners and experiences</p>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <h4>Coupon Transfer</h4>
+                            <p>Transfer coupons to other customers or businesses</p>
+                        </div>
+                    </div>
+                    
+                    <div class="registration-details">
+                        <h3 class="registration-title">Customer Registration</h3>
+                        <div class="registration-card">
+                            <div class="registration-header">
+                                <h4>Mandatory Details</h4>
+                            </div>
+                            <ul class="registration-list">
+                                <li><i class="fas fa-user"></i> Full Name</li>
+                                <li><i class="fas fa-mobile-alt"></i> Mobile Number</li>
+                                <li><i class="fas fa-envelope"></i> Email ID</li>
+                                <li><i class="fas fa-calendar-day"></i> Date of Birth</li>
+                                <li><i class="fas fa-heart"></i> Date of Anniversary</li>
+                            </ul>
+                            
+                            <div class="activation-fee">
+                                <h4>Activation Fee (Customer)</h4>
+                                <div class="fee-breakdown">
+                                    <div class="fee-item">
+                                        <span>Base Fee:</span>
+                                        <span>₹499</span>
+                                    </div>
+                                    <div class="fee-item">
+                                        <span>GST (18%):</span>
+                                        <span>₹89.82</span>
+                                    </div>
+                                    <div class="fee-item total">
+                                        <span>Total:</span>
+                                        <span>₹588.82</span>
+                                    </div>
+                                    <div class="fee-item">
+                                        <span>Validity:</span>
+                                        <span>1 Year</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="customer-features">
+                                <h4>Customer Benefits Include:</h4>
+                                <ul>
+                                    <li>View businesses and offers</li>
+                                    <li>Generate and use coupons</li>
+                                    <li>Transfer coupons (C2C / C2B)</li>
+                                    <li>Birthday & Anniversary surprises</li>
+                                    <li>Multiple visit benefits</li>
+                                    <li>Brand promotion benefits</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="section benefits-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Exclusive <span class="highlight">Benefits</span></h2>
+                    <p class="section-subtitle">Why Global Business is the best choice for everyone</p>
+                </div>
+                
+                <div class="benefits-content">
+                    <div class="benefit-highlight">
+                        <div class="benefit-item">
+                            <div class="benefit-number">01</div>
+                            <div class="benefit-text">
+                                <h4>Coupon Benefits</h4>
+                                <p>Use coupons to get discounts and special additional benefits. Multiple visits using coupons unlock even more rewards.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-number">02</div>
+                            <div class="benefit-text">
+                                <h4>Brand Promotion Rewards</h4>
+                                <p>Businesses uploading images and videos for shop promotion receive exclusive additional benefits.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-number">03</div>
+                            <div class="benefit-text">
+                                <h4>Birthday & Anniversary Surprises</h4>
+                                <p>Receive exclusive gifts like birthday cakes, movie tickets, restaurant dinners, and many more surprises.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-number">04</div>
+                            <div class="benefit-text">
+                                <h4>Location Based Discovery</h4>
+                                <p>Customers see businesses with distance displayed, making it easy to find nearby shops and offers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="terms-conditions">
+                        <div class="terms-card">
+                            <div class="terms-header">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <h3>Terms & Conditions</h3>
+                            </div>
+                            <div class="terms-body">
+                                <p class="terms-highlight">"Sabhi Deals, discounts & offers time to time change hote rahenge"</p>
+                                <p>All prices include applicable GST. Platform fees are subject to change based on business policies.</p>
+                                <p>Validity period for all activations is 1 year from the date of registration.</p>
+                                <p>Special benefits and surprises are subject to availability and business discretion.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Presentation Section -->
+        <section id="presentation" class="section presentation-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Business <span class="highlight">Presentation</span></h2>
+                    <p class="section-subtitle">View our complete 29-page presentation</p>
+                </div>
+                
+                <div class="presentation-container">
+                    <div class="presentation-viewer">
+                        <div class="slide-container">
+                            <div class="slide active">
+                                <div class="slide-number">Slide 1 of 29</div>
+                                <div class="slide-image">
+                                    <img src="ppt_image_1.jpg" alt="Presentation Slide 1" id="current-slide">
+                                </div>
+                                <div class="slide-caption">
+                                    <h3 id="slide-title">Global Business Introduction</h3>
+                                    <p id="slide-description">Revolutionizing local business and customer connections</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="slide-controls">
+                            <button class="control-btn prev-btn" id="prev-slide">
+                                <i class="fas fa-chevron-left"></i> Previous
+                            </button>
+                            <div class="slide-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="progress-fill"></div>
+                                </div>
+                                <span class="progress-text" id="progress-text">1/29</span>
+                            </div>
+                            <button class="control-btn next-btn" id="next-slide">
+                                Next <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="slide-thumbnails" id="thumbnail-container">
+                            <!-- Thumbnails will be generated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration CTA -->
+        <section id="register" class="section register-section">
+            <div class="container">
+                <div class="register-content">
+                    <h2 class="register-title">Ready to Join <span class="highlight">Global Business</span>?</h2>
+                    <p class="register-subtitle">Become part of the revolution in local commerce</p>
+                    <div class="register-options">
+                        <div class="register-option business-option">
+                            <div class="option-header">
+                                <i class="fas fa-store"></i>
+                                <h3>Business Registration</h3>
+                            </div>
+                            <div class="option-price">
+                                <span class="price">₹1,768.82</span>
+                                <span class="price-note">/ year (incl. GST)</span>
+                            </div>
+                            <ul class="option-features">
+                                <li><i class="fas fa-check"></i> Business Listing</li>
+                                <li><i class="fas fa-check"></i> Offer Publishing</li>
+                                <li><i class="fas fa-check"></i> Customer Reach</li>
+                                <li><i class="fas fa-check"></i> Brand Promotion</li>
+                            </ul>
+                            <button class="option-btn rainbow-hover">Register as Business</button>
+                        </div>
+                        
+                        <div class="register-option customer-option">
+                            <div class="option-header">
+                                <i class="fas fa-user-friends"></i>
+                                <h3>Customer Registration</h3>
+                            </div>
+                            <div class="option-price">
+                                <span class="price">₹588.82</span>
+                                <span class="price-note">/ year (incl. GST)</span>
+                            </div>
+                            <ul class="option-features">
+                                <li><i class="fas fa-check"></i> Discover Businesses</li>
+                                <li><i class="fas fa-check"></i> Generate Coupons</li>
+                                <li><i class="fas fa-check"></i> Birthday Surprises</li>
+                                <li><i class="fas fa-check"></i> Anniversary Gifts</li>
+                            </ul>
+                            <button class="option-btn rainbow-hover">Register as Customer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-wrapper">
+                            <img src="logo.png" alt="Global Business Logo" class="logo-img">
+                            <div class="logo-text">
+                                <h3>Global Business</h3>
+                                <p class="tagline">Your Sales Team</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer-description">Connecting businesses with customers through innovative technology and exclusive benefits.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link rainbow-hover"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link rainbow-hover"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link rainbow-hover"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link rainbow-hover"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link rainbow-hover">Home</a></li>
+                        <li><a href="#about" class="footer-link rainbow-hover">About</a></li>
+                        <li><a href="#business" class="footer-link rainbow-hover">For Business</a></li>
+                        <li><a href="#customer" class="footer-link rainbow-hover">For Customer</a></li>
+                        <li><a href="#benefits" class="footer-link rainbow-hover">Benefits</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+                        <li><i class="fas fa-envelope"></i> info@globalbusiness.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Mumbai, India</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Terms & Conditions</h4>
+                    <p class="terms-note">"Sabhi Deals, discounts & offers time to time change hote rahenge"</p>
+                    <p>All activations valid for 1 year from registration date.</p>
+                    <p>Prices include applicable GST.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Global Business. All Rights Reserved. | New Business Generator</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Registration Modal -->
+    <div class="modal-overlay" id="registration-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Registration Form</h3>
+                <button class="close-modal" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="registration-form">
+                    <div class="form-group">
+                        <label for="reg-type">Registration Type</label>
+                        <select id="reg-type" required>
+                            <option value="">Select Type</option>
+                            <option value="business">Business Registration</option>
+                            <option value="customer">Customer Registration</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mobile">Mobile Number</label>
+                        <input type="tel" id="mobile" placeholder="Enter your mobile number" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email ID</label>
+                        <input type="email" id="email" placeholder="Enter your email address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="anniversary">Date of Anniversary</label>
+                        <input type="date" id="anniversary">
+                    </div>
+                    
+                    <button type="submit" class="submit-btn rainbow-hover">Proceed to Payment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
